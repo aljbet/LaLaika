@@ -5,12 +5,17 @@ body {
 .base_info {
     background-color: bisque;
     display: flex;
+    height: 70px;
 }
-.header_image {
-    height: 50px;
-    display: flex;
-    margin: auto;
-    justify-content: center;
+
+.right_icons {
+    margin-left: auto;
+    /*border: 1px solid red;*/
+    height: inherit;
+}
+
+.header_icon {
+    height: inherit;
 }
 
 .instrument_classes_block {
@@ -27,10 +32,12 @@ body {
     border: 1px solid red;
     justify-content: center;
 }
+
 footer {
     background-color: violet;
     display: flex;
 }
+
 .random_footer_info {
     width: 100%;
     margin: auto;
