@@ -1,9 +1,9 @@
 body {
     background-color: pink;
+    font-family: Arial, sans-serif;
 }
 
 .base_info {
-    background-color: bisque;
     display: flex;
     height: 70px;
 }
@@ -34,22 +34,23 @@ body {
 }
 
 .instrument_classes_block {
-    border: 1px solid red;
-    background-color: violet;
     display: flex;
 }
 
 .instrument_class {
+    border-radius: 10%;
+    background-color: #ee82b3;
     width: 100%;
-    margin: auto;
+    margin: 10px;
     padding: 10px;
     display: flex;
-    border: 1px solid red;
+    border: 1px solid blueviolet;
     justify-content: center;
 }
 
 footer {
-    background-color: violet;
+    margin: 10px 0;
+    background-color: #ee82b3;
     display: flex;
 }
 
@@ -61,12 +62,51 @@ footer {
 }
 
 main {
-    background-color: lightblue;
     display: flex;
 }
 
+.filters {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+@media (max-width: 500px) {
+    .filters {
+        display: none;
+    }
+}
+
 .catalog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ee8282;
+}
+
+.row {
     margin: auto;
     display: flex;
+    flex-direction: row;
+}
+
+.catalog_item {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    max-width: 140px;
+    max-height: 260px;
+    filter: drop-shadow(0 0 0.75rem gray);
+}
+
+.item_image {
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+
+.item_name {
+    display: flex;
     justify-content: center;
+    margin: auto;
 }
