@@ -10,7 +10,7 @@ body {
 
 .right_icons {
     margin-left: auto;
-    /*border: 1px solid red;*/
+    display: flex;
     height: inherit;
 }
 
