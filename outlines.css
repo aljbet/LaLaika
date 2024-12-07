@@ -14,8 +14,23 @@ body {
     height: inherit;
 }
 
-.header_icon {
+.icon {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
     height: inherit;
+}
+
+.icon_image {
+    display: flex;
+    margin: auto;
+    height: 70%;
+}
+
+.icon_text {
+    display: flex;
+    justify-content: center;
+    height: 30%;
 }
 
 .instrument_classes_block {
