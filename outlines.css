@@ -1,16 +1,24 @@
 body {
-    background-color: pink;
+    background-color: #ffdee6;
     font-family: Arial, sans-serif;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr:nth-child(2n+1) {
+    background-color: rgba(236, 180, 197, 0.82);
+}
+
+th {
+    background-color: rgba(205, 128, 143, 0.7);
 }
 
 .base_info {
     display: flex;
     height: 70px;
-}
-
-.logo {
-    height: 70px;
-    width: 70px;
 }
 
 .right_icons {
@@ -52,7 +60,7 @@ body {
 
 .instrument_class {
     border-radius: 10%;
-    background-color: #ee82b3;
+    background-color: rgba(255, 190, 210, 0.74);
     margin: 5px 10px;
     padding: 10px;
     display: flex;
@@ -63,7 +71,7 @@ body {
 footer {
     margin: 10px 0;
     width: 100%;
-    background-color: #ee82b3;
+    background-color: rgba(255, 190, 210, 0.74);
     display: flex;
 }
 
@@ -95,7 +103,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #ee8282;
+    background-color: #ffc4d6;
 }
 
 .catalog_item {
