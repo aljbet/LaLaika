@@ -8,12 +8,14 @@ body {
     height: 70px;
 }
 
+.logo {
+    height: 70px;
+    width: 70px;
+}
+
 .right_icons {
     margin-left: auto;
     display: flex;
-    /*height: inherit;*/
-    min-height: 70px;
-    max-height: 90px;
 }
 
 .icon {
@@ -21,7 +23,6 @@ body {
     flex-direction: column;
     margin: 0 5px;
     max-height: inherit;
-    min-height: 30px;
 }
 
 .icon_image {
@@ -34,6 +35,12 @@ body {
     display: flex;
     justify-content: center;
     height: 30%;
+}
+
+@media (max-width: 410px) {
+    .icon_text {
+        display: none;
+    }
 }
 
 .instrument_classes_block {
