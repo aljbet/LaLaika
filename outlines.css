@@ -11,7 +11,9 @@ body {
 .right_icons {
     margin-left: auto;
     display: flex;
-    height: inherit;
+    /*height: inherit;*/
+    min-height: 70px;
+    max-height: 90px;
 }
 
 .icon {
@@ -38,12 +40,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-decoration: none;
 }
 
 .instrument_class {
     border-radius: 10%;
     background-color: #ee82b3;
-    margin: 10px;
+    margin: 5px 10px;
     padding: 10px;
     display: flex;
     border: 1px solid blueviolet;
@@ -52,6 +55,7 @@ body {
 
 footer {
     margin: 10px 0;
+    width: 100%;
     background-color: #ee82b3;
     display: flex;
 }
@@ -86,12 +90,6 @@ main {
     justify-content: center;
     background-color: #ee8282;
 }
-
-/*.row {*/
-/*    margin: auto;*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*}*/
 
 .catalog_item {
     display: flex;
