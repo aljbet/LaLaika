@@ -76,10 +76,7 @@ th {
     display: flex;
     justify-content: center;
     height: 30%;
-}
-
-@media (max-width: 410px) {
-    .icon_text {
+    @media (max-width: 410px) {
         display: none;
     }
 }
@@ -118,14 +115,11 @@ main {
     display: flex;
 }
 
-.filters {
+#filters {
     display: flex;
     flex-direction: column;
     width: 30%;
-}
-
-@media (max-width: 560px) {
-    .filters {
+    @media (max-width: 560px) {
         display: none;
     }
 }
