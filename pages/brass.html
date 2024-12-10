@@ -3,39 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="outlines.css" rel="stylesheet">
+    <link href="../outlines.css" rel="stylesheet">
     <title>Балалайка</title>
-    <script src="scripts/load_time.js" defer></script>
+    <script src="../scripts/load_time.js" defer></script>
+    <script src="../scripts/active.js" defer></script>
 </head>
 <body>
 <header>
     <section class="base_info">
-        <img class="logo" src="images/logo.png" alt="logo">
+        <img class="logo" src="../images/logo.png" alt="logo">
         <section class="right_icons">
             <section class="icon">
-                <img class="icon_image" src="images/favour.png" alt="favourites">
+                <img class="icon_image" src="../images/favour.png" alt="favourites">
                 <a class="icon_text">Избранное</a>
             </section>
             <section class="icon">
-                <img class="icon_image" src="images/basket.png" alt="basket">
+                <img class="icon_image" src="../images/basket.png" alt="basket">
                 <a class="icon_text">Корзина</a>
             </section>
             <section class="icon">
-                <img class="icon_image" src="images/account.png" alt="lk">
+                <img class="icon_image" src="../images/account.png" alt="lk">
                 <a class="icon_text">Личный кабинет</a>
             </section>
         </section>
     </section>
-    <section class="instrument_classes_block">
-        <input type="button" class="instrument_class" onclick="location.href='index.html';" value="о нас"/>
-        <input type="button" class="instrument_class" onclick="location.href='strings.html';" value="струнные"/>
-        <input type="button" class="instrument_class" onclick="location.href='brass.html';" value="духовые"/>
-        <input type="button" class="instrument_class" onclick="location.href='keyboard.html';" value="клавишные"/>
-        <input type="button" class="instrument_class" onclick="location.href='percussion.html';" value="ударные"/>
-    </section>
+    <nav class="instrument_classes_block">
+        <a class="instrument_class" href="../index.html">о нас</a>
+        <a class="instrument_class" href="strings.html">струнные</a>
+        <a class="instrument_class" href="brass.html">духовые</a>
+        <a class="instrument_class" href="keyboard.html">клавишные</a>
+        <a class="instrument_class" href="percussion.html">ударные</a>
+    </nav>
 </header>
 <main>
-    <aside class="filters">
+    <aside id="filters">
         <section class="filter_item">Производитель:</section>
         <section class="filter_item">
             <input type="checkbox" id="yamaha"/>
@@ -59,27 +60,27 @@
     </aside>
     <section class="catalog">
         <a class="catalog_item">
-            <img class="item_image" src="images/catalog/brass/valtorna.png" alt="item">
+            <img class="item_image" src="../images/catalog/brass/valtorna.png" alt="item">
             <section class="item_name">волынка</section>
         </a>
         <a class="catalog_item">
-            <img class="item_image" src="images/catalog/brass/fagot.jpg" alt="item">
+            <img class="item_image" src="../images/catalog/brass/fagot.jpg" alt="item">
             <section class="item_name">фагот</section>
         </a>
         <a class="catalog_item">
-            <img class="item_image" src="images/catalog/brass/flute.jpg" alt="item">
+            <img class="item_image" src="../images/catalog/brass/flute.jpg" alt="item">
             <section class="item_name">флейта</section>
         </a>
         <a class="catalog_item">
-            <img class="item_image" src="images/catalog/brass/trombon.jpg" alt="item">
+            <img class="item_image" src="../images/catalog/brass/trombon.jpg" alt="item">
             <section class="item_name">тромбон</section>
         </a>
         <a class="catalog_item">
-            <img class="item_image" src="images/catalog/brass/truba.jpg" alt="item">
+            <img class="item_image" src="../images/catalog/brass/truba.jpg" alt="item">
             <section class="item_name">труба</section>
         </a>
         <a class="catalog_item">
-            <img class="item_image" src="images/catalog/brass/tuba.jpg" alt="item">
+            <img class="item_image" src="../images/catalog/brass/tuba.jpg" alt="item">
             <section class="item_name">туба</section>
         </a>
     </section>

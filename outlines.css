@@ -89,18 +89,28 @@ th {
 
 .instrument_class {
     border-radius: 10%;
-    background-color: rgba(255, 190, 210, 0.74);
+    background-color: #ffc4d6;
     margin: 5px 10px;
     padding: 10px;
     display: flex;
     border: 1px solid blueviolet;
     justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.instrument_class:hover {
+    background-color: rgba(255, 147, 179, 1);
+}
+
+.active {
+    background-color: #ff679c;
 }
 
 footer {
     margin-top: 10px;
     width: 100%;
-    background-color: rgba(255, 190, 210, 0.74);
+    background-color: #ffc4d6;
     display: flex;
 }
 
