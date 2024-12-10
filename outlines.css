@@ -1,11 +1,41 @@
 body {
     background-color: #ffdee6;
     font-family: Arial, sans-serif;
+    @media (max-width: 350px) {
+        font-size: 12px;
+    }
+    @media (max-width: 300px) {
+        font-size: 10px;
+    }
 }
 
 td, th {
     border: 1px solid black;
     text-align: center;
+    @media (max-width: 440px) {
+        font-size: 15px;
+    }
+    @media (max-width: 420px) {
+        font-size: 14px;
+    }
+    @media (max-width: 400px) {
+        font-size: 13px;
+    }
+    @media (max-width: 370px) {
+        font-size: 12px;
+    }
+    @media (max-width: 340px) {
+        font-size: 11px;
+    }
+    @media (max-width: 320px) {
+        font-size: 10px;
+    }
+    @media (max-width: 300px) {
+        font-size: 9px;
+    }
+    @media (max-width: 270px) {
+        font-size: 8px;
+    }
 }
 
 tr:nth-child(2n+1) {
@@ -19,6 +49,9 @@ th {
 .base_info {
     display: flex;
     height: 70px;
+    @media (max-width: 275px) {
+        height: 60px;
+    }
 }
 
 .right_icons {
@@ -55,7 +88,6 @@ th {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    text-decoration: none;
 }
 
 .instrument_class {
@@ -69,7 +101,7 @@ th {
 }
 
 footer {
-    margin: 10px 0;
+    margin-top: 10px;
     width: 100%;
     background-color: rgba(255, 190, 210, 0.74);
     display: flex;
@@ -92,7 +124,7 @@ main {
     width: 30%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 560px) {
     .filters {
         display: none;
     }
@@ -110,9 +142,10 @@ main {
     display: flex;
     flex-direction: column;
     margin: 10px;
+    padding: 10px;
     max-width: 140px;
     max-height: 260px;
-    filter: drop-shadow(0 0 0.75rem gray);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .item_image {
