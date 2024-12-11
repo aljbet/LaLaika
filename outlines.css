@@ -94,6 +94,10 @@ main {
     background-color: #ffc4d6;
 }
 
+#basket {
+    flex-direction: column;
+}
+
 .catalog_item {
     display: flex;
     flex-direction: column;

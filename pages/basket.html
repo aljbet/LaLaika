@@ -49,8 +49,31 @@
         </pre>
         <p id="load_time"></p>
     </aside>
-    <section class="catalog">
+    <section class="catalog" id="basket">
+        <section>Добавьте инструмент:</section>
+        <form>
+            <label>
+                Название:
+                <input type="text" required>
+            </label>
+            <label>Класс:
+                <select>
+                    <option>не выбран</option>
+                    <option>струнные</option>
+                    <option>духовые</option>
+                    <option>клавишные</option>
+                    <option>ударные</option>
+                </select>
+            </label>
+            <button type="submit">Добавить</button>
+        </form>
 
+        <table>
+            <tr>
+                <th>инструмент</th>
+                <th>класс</th>
+            </tr>
+        </table>
     </section>
 </main>
 <footer>
