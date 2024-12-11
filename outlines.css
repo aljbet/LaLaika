@@ -9,41 +9,9 @@ body {
     }
 }
 
-td, th {
-    border: 1px solid black;
-    text-align: center;
-    @media (max-width: 440px) {
-        font-size: 15px;
-    }
-    @media (max-width: 420px) {
-        font-size: 14px;
-    }
-    @media (max-width: 400px) {
-        font-size: 13px;
-    }
-    @media (max-width: 370px) {
-        font-size: 12px;
-    }
-    @media (max-width: 340px) {
-        font-size: 11px;
-    }
-    @media (max-width: 320px) {
-        font-size: 10px;
-    }
-    @media (max-width: 300px) {
-        font-size: 9px;
-    }
-    @media (max-width: 270px) {
-        font-size: 8px;
-    }
-}
-
-tr:nth-child(2n+1) {
-    background-color: rgba(236, 180, 197, 0.82);
-}
-
-th {
-    background-color: rgba(205, 128, 143, 0.7);
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .base_info {
@@ -95,8 +63,6 @@ th {
     display: flex;
     border: 1px solid blueviolet;
     justify-content: center;
-    text-decoration: none;
-    color: black;
 }
 
 .instrument_class:hover {
@@ -105,20 +71,6 @@ th {
 
 .active {
     background-color: #ff679c;
-}
-
-footer {
-    margin-top: 10px;
-    width: 100%;
-    background-color: #ffc4d6;
-    display: flex;
-}
-
-.random_footer_info {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
 }
 
 main {
@@ -162,4 +114,55 @@ main {
     display: flex;
     justify-content: center;
     margin: auto;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    @media (max-width: 440px) {
+        font-size: 15px;
+    }
+    @media (max-width: 420px) {
+        font-size: 14px;
+    }
+    @media (max-width: 400px) {
+        font-size: 13px;
+    }
+    @media (max-width: 370px) {
+        font-size: 12px;
+    }
+    @media (max-width: 340px) {
+        font-size: 11px;
+    }
+    @media (max-width: 320px) {
+        font-size: 10px;
+    }
+    @media (max-width: 300px) {
+        font-size: 9px;
+    }
+    @media (max-width: 270px) {
+        font-size: 8px;
+    }
+}
+
+tr:nth-child(2n+1) {
+    background-color: rgba(236, 180, 197, 0.82);
+}
+
+th {
+    background-color: rgba(205, 128, 143, 0.7);
+}
+
+footer {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #ffc4d6;
+    display: flex;
+}
+
+.random_footer_info {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
