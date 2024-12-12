@@ -6,7 +6,7 @@
     <link href="../outlines.css" rel="stylesheet">
     <title>Балалайка</title>
     <script src="../scripts/load_time.js" defer></script>
-    <script src="../scripts/active.js" defer></script>
+    <script src="../scripts/basket_table.js" defer></script>
 </head>
 <body>
 <header>
@@ -54,10 +54,10 @@
         <form>
             <label>
                 Название:
-                <input type="text" required>
+                <input type="text" id="basket-add-name" required>
             </label>
             <label>Класс:
-                <select>
+                <select id="basket-add-class">
                     <option>не выбран</option>
                     <option>струнные</option>
                     <option>духовые</option>
@@ -68,12 +68,19 @@
             <button type="submit">Добавить</button>
         </form>
 
-        <table>
-            <tr>
-                <th>инструмент</th>
-                <th>класс</th>
-            </tr>
-        </table>
+        <div>
+            <table>
+                <thead>
+                <tr>
+                    <th>инструмент</th>
+                    <th>класс</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
     </section>
 </main>
 <footer>
