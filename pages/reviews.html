@@ -6,6 +6,7 @@
     <link href="../outlines.css" rel="stylesheet">
     <title>Балалайка</title>
     <script src="../scripts/load_time.js" defer></script>
+    <script src="../scripts/reviews.js" defer></script>
 </head>
 <body>
 <header>
@@ -49,7 +50,11 @@
         <p id="load_time"></p>
     </aside>
     <section class="catalog">
-        <img src="../images/rickroll.gif" alt="neva gona gev u up" width="100%"/>
+        <section class="reviews">
+            <img id="preloader" src="../images/loading.gif" alt="loading">
+            <section id="content"></section>
+            <section id="error_message"></section>
+        </section>
     </section>
 </main>
 <footer>

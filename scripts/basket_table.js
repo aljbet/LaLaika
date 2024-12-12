@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('form');
     const table_body = document.querySelector('tbody');
-    const storage_name = "basket-table-storage";
+    const storage_name = "basket_table_storage";
 
     form.addEventListener('submit', () => {
-        const _name = document.getElementById("basket-add-name").value;
-        const _class = document.getElementById("basket-add-class").value;
+        const _name = document.getElementById("basket_add_name").value;
+        const _class = document.getElementById("basket_add_class").value;
         add({_name, _class});
     });
 
